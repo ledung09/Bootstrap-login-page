@@ -49,14 +49,12 @@ if (isset($_POST['logInBtn'])) {
             echo "Login successful!";
 
         } else {
-            echo "Fail";
             header("Location: index.php?error=2");
             exit();
 
         };
         
     } else {
-        echo "Fail";
         header("Location: index.php?error=2");
         exit();
 
