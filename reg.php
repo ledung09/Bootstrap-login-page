@@ -46,8 +46,7 @@ if (isset($_POST['logInBtn'])) {
         $hashedPass = $row['passWord'];
 
         if (password_verify($pass, $hashedPass)) {
-            echo "Pass";
-            print_r($_POST);
+            echo "Login successful!";
 
         } else {
             echo "Fail";
