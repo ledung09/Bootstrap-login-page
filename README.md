@@ -14,9 +14,3 @@ git clone https://github.com/ledung09/Bootstrap-login-page.git
 2. Move the project files to the htdocs directory of your XAMPP installation. The path is typically C:\xampp\htdocs\ on Windows or /opt/lampp/htdocs/ on Linux.
 3. Start the Apache and MySQL services in the XAMPP control panel.
 4. Open a web browser and navigate to http://localhost/Bootstrap-login-page.
-## Usage
-1. You will see a homepage with options to either login or sign up a new account.
-2. Click on the "Sign up" pill to register a new user.
-3. Fill in the required information and click on the "Sign up" button.
-4. After successful registration, you will be able to login your account.
-5. Enter your credentials and click on the "Login" button to login!
